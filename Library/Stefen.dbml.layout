@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.125, 11" name="Stefen">
+  <DataContextMoniker Name="/StefenDataContext" />
+  <nestedChildShapes>
+    <classShape Id="35083be4-f950-448c-83fe-83432f8b9165" absoluteBounds="4, 0.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/StefenDataContext/Book" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bcd8a429-8943-4df2-a5d2-09a8727f13a3" absoluteBounds="4.015, 0.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6de06a0c-8dfc-4bc1-b336-b99cccad5147" absoluteBounds="1.375, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/StefenDataContext/BookDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="540b7e91-b763-48c7-a84b-a6f952304b86" absoluteBounds="1.3900000000000001, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4 : 1.57774983723958); (3.55208333333333 : 1.57774983723958 : JumpStart); (3.38541666666667 : 1.57774983723958 : JumpEnd); (3.375 : 1.57774983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StefenDataContext/Book/Book_BookDetail" />
+      <nodes>
+        <classShapeMoniker Id="35083be4-f950-448c-83fe-83432f8b9165" />
+        <classShapeMoniker Id="6de06a0c-8dfc-4bc1-b336-b99cccad5147" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a59aef7f-ceae-492b-9ede-8f4825d8258f" absoluteBounds="1.375, 4.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/StefenDataContext/Borrowing" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8ce2852d-1648-460c-86c3-3e12928bcde6" absoluteBounds="1.3900000000000001, 5.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.375 : 2.65549967447917); (2.375 : 4.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StefenDataContext/BookDetail/BookDetail_Borrowing" />
+      <nodes>
+        <classShapeMoniker Id="6de06a0c-8dfc-4bc1-b336-b99cccad5147" />
+        <classShapeMoniker Id="a59aef7f-ceae-492b-9ede-8f4825d8258f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="51d100f6-451a-45f6-a5f4-39bf3ebf7423" absoluteBounds="5.25, 7.875, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/StefenDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1e633ef-66b8-4302-a134-a9e50ddbc31c" absoluteBounds="5.2650000000000006, 8.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="34848e85-fd39-45aa-a664-bbe43300a6da" absoluteBounds="3.625, 4.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/StefenDataContext/Language" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78abfdf5-ea6b-4ee1-bc1f-1d2d319784d4" absoluteBounds="3.64, 4.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.8125 : 4.25); (4.8125 : 4.00160970052083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StefenDataContext/Language/Language_Book" />
+      <nodes>
+        <classShapeMoniker Id="34848e85-fd39-45aa-a664-bbe43300a6da" />
+        <classShapeMoniker Id="35083be4-f950-448c-83fe-83432f8b9165" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e82f514e-8a9b-419c-b5e8-c74e3a521041" absoluteBounds="7.75, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/StefenDataContext/Location" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58d08dc1-0e32-4ceb-b6c8-9ea40c7b4492" absoluteBounds="7.765, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 1); (8.75 : 0.4375); (3.46875 : 0.4375); (3.46875 : 2.14787675585937); (3.375 : 2.14787675585937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StefenDataContext/Location/Location_BookDetail" />
+      <nodes>
+        <classShapeMoniker Id="e82f514e-8a9b-419c-b5e8-c74e3a521041" />
+        <classShapeMoniker Id="6de06a0c-8dfc-4bc1-b336-b99cccad5147" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="cc78d6a8-a4ad-47c6-8140-03b933e80faa" absoluteBounds="9.875, 4.625, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/StefenDataContext/Member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6568dc5e-d813-4d7a-a8f5-9393414d4d11" absoluteBounds="9.89, 5.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.875 : 7.06174967447917); (3.375 : 7.06174967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StefenDataContext/Member/Member_Borrowing" />
+      <nodes>
+        <classShapeMoniker Id="cc78d6a8-a4ad-47c6-8140-03b933e80faa" />
+        <classShapeMoniker Id="a59aef7f-ceae-492b-9ede-8f4825d8258f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c844bee0-0745-4597-ac04-810c0884f20e" absoluteBounds="6.5, 4.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/StefenDataContext/Publisher" />
+      <nestedChildShapes>
+        <elementListCompartment Id="003cc972-a1c9-4c6a-95f5-cb3f4ace6c33" absoluteBounds="6.515, 5.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.125 : 4.875); (7.125 : 0.71875); (6 : 0.71875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StefenDataContext/Publisher/Publisher_Book" />
+      <nodes>
+        <classShapeMoniker Id="c844bee0-0745-4597-ac04-810c0884f20e" />
+        <classShapeMoniker Id="35083be4-f950-448c-83fe-83432f8b9165" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

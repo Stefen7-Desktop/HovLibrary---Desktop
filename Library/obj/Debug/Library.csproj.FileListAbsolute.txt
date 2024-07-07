@@ -1,0 +1,16 @@
+C:\Project IT Software\Library\Library\bin\Debug\Library.exe.config
+C:\Project IT Software\Library\Library\bin\Debug\Library.exe
+C:\Project IT Software\Library\Library\bin\Debug\Library.pdb
+C:\Project IT Software\Library\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+C:\Project IT Software\Library\Library\obj\Debug\Library.Properties.Resources.resources
+C:\Project IT Software\Library\Library\obj\Debug\Library.csproj.GenerateResource.cache
+C:\Project IT Software\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Project IT Software\Library\Library\obj\Debug\Library.exe
+C:\Project IT Software\Library\Library\obj\Debug\Library.pdb
+C:\Project IT Software\Library\Library\obj\Debug\Library.FormLogin.resources
+C:\Project IT Software\Library\Library\obj\Debug\Library.MainForm.resources
+C:\Project IT Software\Library\Library\obj\Debug\Library.FormMember.resources
+C:\Project IT Software\Library\Library\obj\Debug\Library.FormMasterBook.resources
+C:\Project IT Software\Library\Library\obj\Debug\Library.FormBookList.resources
+C:\Project IT Software\Library\Library\obj\Debug\Library.FormAddNewBorrowing.resources
+C:\Project IT Software\Library\Library\obj\Debug\Library.FormAllBorrowing.resources
